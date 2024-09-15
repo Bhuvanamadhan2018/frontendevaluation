@@ -1,0 +1,62 @@
+#one{
+    width:300px;
+    height: 300px;
+    background-color: blueviolet;
+    border: 3px solid black;
+    margin-top: 50px;
+    margin-left: 30px;
+    font-size: 25px;
+    text-align: center;
+   transition: 4s;
+}
+
+#two{
+    width:300px;
+    height: 300px;
+    background-color: rgb(231, 22, 127);
+    border: 3px solid black;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    margin-left: 30px;
+    font-size: 25px;
+    text-align: center;
+    /* transition: 2s; */
+
+}
+
+#two:hover{
+    /* transform: scaleY(); */
+    /* transform: rotateY(45deg); */
+     /* transform:skew(45deg);   */
+}  
+
+#one:hover{
+    /* transform:translate(-30px ,-30px);  */
+    /* transform: perspective(100px) rotateX(45deg);  */
+}
+/* 2d transform:translate(px) /scale(digits)/rotate(degree) /skew(deg)*/
+/* 3d transform:scale(3,2,3 ) */
+
+/* animation */
+#three {
+  width: 300px;
+  height: 300px;
+  background-color: red;
+  font-size: 25px;
+  text-align: center;
+  border: 3px solid black;
+  animation-name: change-color;
+  animation-duration: 2s;
+}
+
+@keyframes change-color {
+  0% {
+    background-color: red;
+    transform: rotate(45deg);
+  }
+  100% {
+    background-color: blue;
+  }
+}
+
+

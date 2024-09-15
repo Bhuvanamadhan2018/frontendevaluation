@@ -1,0 +1,21 @@
+h1,h4{
+    text-align: center;
+}
+h4{
+    padding-top: 0%;
+}
+form{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    border: 10px saddlebrown;
+}
+.button{
+    background-color:rgb(83, 226, 131);
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+}
+label {
+    padding-bottom: 0%;
+}
+	

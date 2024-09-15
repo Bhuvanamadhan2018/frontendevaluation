@@ -1,0 +1,78 @@
+#container{
+    height: 400px;
+    width: 250px;
+    background-color: white;
+    border:2px solid black;
+    border-radius: 16px;
+    position:relative
+
+}
+.top-left{
+    font-size: 26px;
+    font-weight: bold;
+    color: red;
+    position: relative;
+    left:12px;
+    top:12px
+}
+.top-right{
+    font-size: 26px;
+    font-weight: bold;
+    color: red;
+    position: absolute;
+    right:12px;
+    top:12px
+}
+.bottom-right{
+    font-size: 28px;
+    font-weight: bold;
+    color: red;
+    position: absolute;
+    right:12px;
+    bottom:12px;
+    
+}
+.bottom-left{
+    font-size: 28px;
+    font-weight: bold;
+    color: red;
+    position:absolute;
+    left:12px;
+    bottom:12px;
+    
+}
+.top-diam{
+    position:relative;
+    color:red;
+    font-size: 40px;
+    left:12px;
+    top:5px;
+}
+.left-diam{
+    position:absolute;
+    color:red;
+    font-size: 40px;
+    left:12px;
+    bottom:38px;
+}
+.central-diam{
+    text-align: center;
+    position: relative;
+    top:60px;
+    color:red;
+    font-size: 100px;
+}
+.bottom-diam{
+    position:absolute;
+    color:red;
+    font-size: 40px;
+    right:12px;
+    bottom:35px;
+}
+.right-diam{
+    position:absolute;
+    color:red;
+    font-size: 40px;
+    right:12px;
+    top:35px;
+}
